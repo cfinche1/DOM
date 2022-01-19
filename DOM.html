@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order List</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container">
+    
+    <br>
+
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-order-name">Order</label>
+                        <input type="text" class="form-control" id="new-order-name">
+                    </div>
+                </div>
+            </div> <br>
+            <div>
+                <button id="new-order" class="btn btn-primary form-control">Create</button>
+            </div>
+        </div>
+    </div> <br>
+
+    <div id="orders">
+
+    </div>
+
+    <script src="DOM.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
